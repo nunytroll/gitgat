@@ -3,9 +3,11 @@ from telegram.ext import Updater, CallbackContext, CommandHandler
 from uuid import uuid1
 import logging
 import helpers
+from keep_alive import keep_alive
 
+keep_alive()
 # Access Token of your bot acquired from @BotFather
-token = ''
+token = '6090732636:AAG9GoXop10XJ2sm-9z0t6t2R9iBJ7cpZ5M'
 
 
 def start(update: Update, context: CallbackContext):
